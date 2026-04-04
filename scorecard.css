@@ -1,0 +1,25 @@
+table{
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 10px;
+}
+
+th {
+    background: #1f2937;
+    padding: 8px;
+    text-align: left;
+    color: #4ade80;
+}
+
+td {
+    border-bottom: 1 px solid rgba(255, 255, 255, 0.1);
+    padding: 8px;
+}
+
+tr:hover {
+    background: rgba(255, 255, 255, 0.05);
+}
+
+.bowling-table{
+    color: #facc15;
+}

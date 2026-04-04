@@ -86,7 +86,7 @@ async function getScore() {
 
     
    if (iplMatches.some(m => m.matchStarted && !m.matchEnded)) {
-  setTimeout(getScore, 60000)
+  setTimeout(getScore, 240000)
 
 
 }
